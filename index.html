@@ -114,7 +114,7 @@ h3{font-family:var(--display);font-weight:500}
 .contact{padding:74px 7%;background:#e4e8d9;display:grid;grid-template-columns:.8fr 1.2fr;gap:7%;align-items:start}
 .contact h2{font-size:clamp(40px,5vw,64px);margin:0}
 .contact p{font-size:13px;line-height:1.8;color:var(--muted);margin:6px 0 18px}
-.channels{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.channels{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
 .channel{display:block;background:var(--white);border:1px solid #cfd6c8;border-radius:5px;padding:20px;transition:transform .2s,border-color .2s}
 .channel:hover{transform:translateY(-3px);border-color:var(--forest)}
 .channel span{display:block;font-size:8px;letter-spacing:2px;font-weight:700;color:#72816b}
@@ -204,9 +204,10 @@ document.getElementById("content-grid").innerHTML=CONTEUDOS.map(c=>`<a class="ca
 <a class="channel" href="mailto:brfolster@gmail.com?subject=Contato%20pelo%20site%20BR%20Folster"><span>E-MAIL</span><b>brfolster@gmail.com</b></a>
 <a class="channel" href="https://www.linkedin.com/in/bruna-folster-28390a85/" target="_blank" rel="noopener noreferrer"><span>LINKEDIN</span><b>Bruna Folster ↗</b></a>
 <a class="channel" href="https://www.linkedin.com/company/brfolster/" target="_blank" rel="noopener noreferrer"><span>PÁGINA DA EMPRESA</span><b>BR Folster no LinkedIn ↗</b></a>
+<a class="channel" href="https://www.instagram.com/brunafolster/" target="_blank" rel="noopener noreferrer"><span>INSTAGRAM</span><b>@brunafolster ↗</b></a>
 </div></div></section>
 </main>
-<footer><a class="brand" href="#inicio" aria-label="BR Folster, início"><img src="assets/br-folster-logo.png" alt="BR Folster"></a><p>Sustentabilidade com visão de negócio.</p><div class="links"><a href="mailto:brfolster@gmail.com">brfolster@gmail.com</a><a href="https://www.linkedin.com/company/brfolster/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div><small>© 2026 BR Folster</small></footer>
+<footer><a class="brand" href="#inicio" aria-label="BR Folster, início"><img src="assets/br-folster-logo.png" alt="BR Folster"></a><p>Sustentabilidade com visão de negócio.</p><div class="links"><a href="mailto:brfolster@gmail.com">brfolster@gmail.com</a><a href="https://www.linkedin.com/company/brfolster/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://www.instagram.com/brunafolster/" target="_blank" rel="noopener noreferrer">Instagram ↗</a></div><small>© 2026 BR Folster</small></footer>
 <script>
 const menu=document.querySelector(".menu-toggle"),nav=document.querySelector("#main-nav");
 menu.addEventListener("click",()=>{const open=menu.getAttribute("aria-expanded")!=="true";menu.setAttribute("aria-expanded",String(open));menu.setAttribute("aria-label",open?"Fechar menu":"Abrir menu");nav.classList.toggle("open",open);});

@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="BR Folster, consultoria de Bruna Folster, CCO da P-Life Japan Inc. Sustentabilidade, biodegradação, economia circular e ESG para a indústria do plástico. Palestras sobre sustentabilidade, liderança feminina e neurodiversidade.">
+<meta name="theme-color" content="#143e35">
+<meta property="og:title" content="BR Folster — Bruna Folster">
+<meta property="og:description" content="Consultoria em sustentabilidade, biodegradação e economia circular para a indústria do plástico. Palestras sobre sustentabilidade, liderança feminina e neurodiversidade.">
+<meta property="og:image" content="https://brfolster.com.br/assets/bruna-folster.jpg">
+<title>BR Folster — Bruna Folster</title>
+<style>
+:root{--forest:#143e35;--forest-deep:#0d2d27;--paper:#f4f3ec;--lime:#dce9a9;--ink:#1b302b;--muted:#53625c;--line:#d5dacf;--white:#fffef9;--serif:Georgia,"Times New Roman",serif;--sans:"DM Sans",Arial,sans-serif;--display:Manrope,"Avenir Next",Arial,sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+button,a{-webkit-tap-highlight-color:transparent}
+a:focus-visible,button:focus-visible{outline:3px solid #91ab55;outline-offset:5px}
+.skip{position:absolute;top:-60px;left:20px;background:var(--white);padding:12px;z-index:30}.skip:focus{top:12px}
+.wrap{width:min(1440px,100% - 96px);margin:auto}
+header{height:92px;border-bottom:1px solid #d8ddd3;background:#f4f3ecf2;display:flex;align-items:center;position:sticky;top:0;z-index:20;backdrop-filter:blur(12px)}
+.head-inner{display:flex;justify-content:space-between;align-items:center}
+.brand{display:inline-flex;align-items:center;color:var(--forest)}.brand img{display:block;width:176px;height:auto}
+nav{display:flex;align-items:center;gap:32px;font-size:12px}
+nav a{transition:color .2s}nav a:hover{color:#78904f}
+.nav-contact{border:1px solid #a7b5aa;border-radius:30px;padding:12px 19px}
+.menu-toggle{display:none;background:none;border:1px solid var(--line);border-radius:50%;height:42px;width:42px;font-size:20px;color:var(--forest)}
+.hero{display:grid;grid-template-columns:1.06fr .94fr;gap:7%;align-items:center;padding:70px 0 82px}
+.eyebrow{font-size:9px;font-weight:700;letter-spacing:2px;line-height:1.8}
+.hero h1{font:500 clamp(48px,6vw,82px)/1.03 var(--display);letter-spacing:-4.7px;margin:27px 0 24px;max-width:710px}
+em{font-family:var(--serif);font-weight:400}
+.hero h1 em{color:#577341}
+.intro{max-width:460px;line-height:1.85;color:var(--muted);font-size:15px}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.button{display:inline-flex;align-items:center;justify-content:space-between;gap:34px;background:var(--forest);color:#fff;padding:16px 22px;border-radius:32px;font-size:12px;font-weight:600;margin-top:22px;transition:background .2s,transform .2s}
+.button:hover{background:#275b4c;transform:translateY(-2px)}
+.button.ghost{background:transparent;color:var(--forest);border:1px solid #a7b5aa}
+.button.ghost:hover{background:#e4e8d9}
+.signature{margin-top:39px;font:italic 27px var(--serif)}
+.signature span{display:block;font:600 8px var(--sans);letter-spacing:2px;margin-top:10px}
+.hero-art{position:relative;overflow:hidden;min-height:500px;aspect-ratio:1.02;background:#172f29;border-radius:190px 190px 5px 5px;color:var(--lime);isolation:isolate}.hero-art .bruna-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 30%;opacity:.76;filter:saturate(.72)}.hero-art:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#102a2500 48%,#102a25dd 100%);pointer-events:none}.hero-art>*:not(.bruna-photo){z-index:1}
+.hero-art:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 47% 40%,#365e4b 0%,transparent 56%),linear-gradient(155deg,transparent 45%,#0b2823 100%);z-index:-1}
+.art-grid{position:absolute;inset:0;background-image:linear-gradient(#ffffff0a 1px,transparent 1px),linear-gradient(90deg,#ffffff0a 1px,transparent 1px);background-size:49px 49px}
+.orbit{position:absolute;border:1px solid #c6dc8e88;width:67%;height:69%;border-radius:50%;top:14%;left:16%;transform:rotate(35deg)}
+.orbit.two{width:42%;left:29%;transform:rotate(-38deg);border-color:#e3e9b777}
+.orbit.three{width:92%;height:38%;left:4%;top:29%;transform:rotate(-35deg);border-color:#e3e9b755}
+.art-label{position:absolute;left:9%;top:46%;font:500 clamp(16px,1.8vw,24px)/1.35 var(--display);letter-spacing:-.5px;background:#143e35dd;padding:11px 12px}
+.art-index{position:absolute;top:8%;left:35%;font-size:8px;letter-spacing:2px}
+.art-bottom{position:absolute;bottom:26px;left:9%;right:9%;display:flex;justify-content:space-between;align-items:end;font-size:10px;letter-spacing:.6px}
+.ribbon{display:flex;justify-content:space-around;align-items:center;flex-wrap:wrap;gap:14px 20px;padding:23px 4%;background:var(--lime);font-size:8px;letter-spacing:1.8px;font-weight:700}
+.ribbon i{font-style:normal;font-size:19px;color:#6c8050}
+.section{padding:96px 0;max-width:1440px;margin:auto}
+h2{font:500 clamp(36px,4.5vw,57px)/1.1 var(--display);letter-spacing:-2.7px;margin:16px 0 28px}
+h3{font-family:var(--display);font-weight:500}
+.about{display:grid;grid-template-columns:.9fr 1.1fr;gap:12%}
+.nameplate{border-left:2px solid #8ea36b;padding:3px 0 3px 22px;margin-top:45px;font:600 34px/1.05 var(--display);letter-spacing:-1px}
+.nameplate span{display:block;font:600 8px var(--sans);letter-spacing:2px;margin-top:14px}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:34px}
+.facts div{border-top:1px solid #c4cebd;padding-top:12px}
+.facts b{display:block;font:500 30px var(--display);letter-spacing:-1px;color:var(--forest)}
+.facts span{font-size:10px;line-height:1.5;color:var(--muted)}
+.about-text{padding-top:23px;font-size:14px;line-height:1.9;color:var(--muted)}
+.about-text .large{font:400 23px/1.5 var(--display);color:var(--ink);margin-top:0}
+.about-text blockquote{margin:26px 0;padding:18px 22px;border-left:2px solid #8ea36b;background:#e9ecdf;font:italic 17px/1.6 var(--serif);color:var(--ink)}
+.text-link{display:inline-block;font-size:11px;font-weight:600;border-bottom:1px solid #b2bdab;padding-bottom:6px;margin-top:9px}
+.text-link:hover{border-color:var(--forest)}
+.services{border-top:1px solid var(--line)}
+.section-top{display:flex;justify-content:space-between;align-items:end;gap:35px;margin-bottom:37px}
+.section-top>p{font-size:12px;line-height:1.8;color:var(--muted);padding-bottom:20px}
+.service-list article{border-top:1px solid #ccd3c8;padding:27px 0;display:grid;grid-template-columns:60px 1fr 48px;gap:24px;align-items:start}
+.service-num{font-size:11px;margin-top:8px;color:#72816b}
+.service-list h3{font-size:23px;margin:0 0 10px;letter-spacing:-.6px}
+.service-list p{font-size:13px;line-height:1.75;max-width:680px;color:var(--muted);margin:0 0 15px}
+.service-list article>a{font-size:23px;border:1px solid #c4cebd;width:42px;height:42px;border-radius:50%;text-align:center;line-height:38px;transition:all .2s}
+.service-list article>a:hover{background:var(--forest);color:white;border-color:var(--forest)}
+.tags{display:flex;gap:8px;flex-wrap:wrap}
+.tags span{font-size:8px;letter-spacing:1px;border:1px solid #d1d7c9;padding:6px 9px;border-radius:20px}
+.talks{background:var(--forest);color:var(--paper);padding:96px 0}
+.talks .eyebrow{color:var(--lime)}
+.talks h2 em{color:var(--lime)}
+.talks .section-top>p{color:#c9d3c4}
+.talk-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.talk{border:1px solid #ffffff26;border-radius:5px;padding:28px 24px;background:#ffffff08}
+.talk .num{font-size:9px;letter-spacing:2px;color:var(--lime)}
+.talk h3{font-size:22px;line-height:1.25;letter-spacing:-.5px;margin:16px 0 12px}
+.talk p{font-size:13px;line-height:1.75;color:#c9d3c4;margin:0}
+.stages{margin-top:34px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:11px;color:#c9d3c4}
+.stages b{font-size:8px;letter-spacing:2px;color:var(--lime);margin-right:6px}
+.stages span{border:1px solid #ffffff2e;border-radius:20px;padding:7px 12px}
+.quote{padding:72px 24px;background:#e4e8d9;color:var(--forest);text-align:center}
+.quote h2{font-size:clamp(34px,4.4vw,57px);line-height:1.24;margin:24px 0}
+.quote em{color:#577341}
+.quote>span{font-size:8px;letter-spacing:2px}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:28px}
+.filters button{border:1px solid #c6d0c1;background:transparent;padding:9px 16px;border-radius:24px;color:var(--forest);font:500 11px var(--sans);cursor:pointer;transition:all .2s}
+.filters button.active,.filters button:hover{background:var(--forest);color:white;border-color:var(--forest)}
+.content-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{border:1px solid #d9ded2;border-radius:5px;overflow:hidden;background:var(--white);transition:transform .2s,box-shadow .2s;display:flex;flex-direction:column}
+.card:hover{transform:translateY(-4px);box-shadow:0 12px 28px #143e3512}
+.card[hidden]{display:none}
+.card-art{height:190px;padding:20px;position:relative;overflow:hidden;background:#e7ecd9;color:var(--forest)}
+.card-art:after{content:"";position:absolute;width:175px;height:175px;border:1px solid #73865366;border-radius:50%;right:-32px;bottom:-68px;box-shadow:0 0 0 19px #7386530a,0 0 0 39px #7386530a}
+.card-art>span{font-size:8px;letter-spacing:2px}
+.card-art b{display:block;position:relative;z-index:1;font:500 34px/1.06 var(--display);letter-spacing:-1.5px;margin-top:25px}
+.card-art b span{font:400 22px var(--serif);margin-left:8px;color:#6c8050}
+.art-b{background:#dce9a9}.art-c{background:#e5e8df}
+.card-body{padding:21px;flex:1}
+.card-body .eyebrow{font-size:8px;color:#72816b}
+.card-body h3{font-size:18px;line-height:1.35;letter-spacing:-.35px;margin:11px 0}
+.card-body p:not(.eyebrow){font-size:12px;line-height:1.7;color:var(--muted)}
+.compact .card-body{padding:25px 22px}
+.compact .card-body h3{font-size:17px}
+.contact{padding:74px 7%;background:#e4e8d9;display:grid;grid-template-columns:.8fr 1.2fr;gap:7%;align-items:start}
+.contact h2{font-size:clamp(40px,5vw,64px);margin:0}
+.contact p{font-size:13px;line-height:1.8;color:var(--muted);margin:6px 0 18px}
+.channels{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.channel{display:block;background:var(--white);border:1px solid #cfd6c8;border-radius:5px;padding:20px;transition:transform .2s,border-color .2s}
+.channel:hover{transform:translateY(-3px);border-color:var(--forest)}
+.channel span{display:block;font-size:8px;letter-spacing:2px;font-weight:700;color:#72816b}
+.channel b{display:block;font:500 15px/1.35 var(--display);margin-top:10px;color:var(--forest);word-break:break-word}
+footer{background:var(--paper);color:var(--forest);border-top:1px solid var(--line);padding:28px max(48px,calc((100% - 1440px)/2));display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
+footer p{font:italic 16px var(--serif);color:var(--forest)}
+footer .links{display:flex;gap:18px;flex-wrap:wrap}
+footer .links a{font-size:11px;border-bottom:1px solid #87968b;padding-bottom:5px}
+footer>small{font-size:9px;color:var(--muted)}
+@media(max-width:900px){.wrap{width:min(100% - 56px,760px)}.hero{gap:5%;padding:55px 0 65px}.hero-art{min-height:410px}.hero h1{letter-spacing:-3.5px}.section,.talks{padding:78px 0}.about{gap:8%}.content-grid,.talk-grid{grid-template-columns:repeat(2,1fr)}.contact{padding:58px 6%;display:block}.contact h2{margin-bottom:20px}.channels{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){.wrap{width:calc(100% - 40px)}header{height:76px}.brand img{width:150px}nav{display:none;position:absolute;top:75px;left:0;right:0;padding:20px;background:var(--paper);border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:0}nav.open{display:flex}nav a{padding:13px 4px}.nav-contact{border:0;border-radius:0;padding:13px 4px}.menu-toggle{display:block}.hero{grid-template-columns:1fr;gap:36px;padding:45px 0 52px}.hero h1{font-size:clamp(47px,14vw,68px);letter-spacing:-3.5px;margin:22px 0}.intro{font-size:14px}.signature{margin-top:30px}.hero-art{min-height:360px;aspect-ratio:1.05}.art-label{font-size:18px}.ribbon{gap:10px;padding:18px 10px;font-size:7px;letter-spacing:1px}.ribbon i{font-size:15px}.section,.talks{padding:65px 0}h2{letter-spacing:-1.8px}.about{grid-template-columns:1fr;gap:16px}.nameplate{margin:15px 0 0}.about-text{padding-top:4px}.about-text .large{font-size:21px}.section-top{display:block}.section-top>p{padding:0;margin-top:-8px}.service-list article{grid-template-columns:34px 1fr 38px;gap:12px;padding:23px 0}.service-list h3{font-size:19px}.service-list p{font-size:12px}.service-list article>a{width:36px;height:36px;line-height:32px;font-size:20px}.content-grid,.talk-grid{grid-template-columns:1fr;gap:14px}.card-art{height:170px}.card-body{padding:19px}.quote{padding:54px 18px}.quote h2{letter-spacing:-1.6px}.contact{padding:49px 22px}.contact h2{font-size:46px;margin:15px 0 21px}.channels{grid-template-columns:1fr}footer{padding:28px 20px}footer p{font-size:14px;margin:0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#conteudo-principal">Pular para o conteúdo</a>
+<header><div class="wrap head-inner">
+<a class="brand" href="#inicio" aria-label="BR Folster, início"><img src="assets/br-folster-logo.png" alt="BR Folster"></a>
+<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu">☰</button>
+<nav id="main-nav" aria-label="Navegação principal">
+<a href="#sobre">Bruna Folster</a><a href="#atuacao">Consultoria</a><a href="#palestras">Palestras</a><a href="#conteudo">Conteúdo</a><a class="nav-contact" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a>
+</nav></div></header>
+<main id="conteudo-principal">
+<section class="wrap hero" id="inicio">
+<div><p class="eyebrow">SUSTENTABILIDADE · BIODEGRADAÇÃO · ECONOMIA CIRCULAR</p>
+<h1>O futuro pede mais que intenção. <em>Pede direção.</em></h1>
+<p class="intro">Consultoria e palestras que conectam a ciência dos materiais à realidade dos negócios. Para a indústria do plástico transformar desafios ambientais em decisões concretas.</p>
+<div class="hero-actions"><a class="button" href="#atuacao">Conheça a consultoria <span aria-hidden="true">↗</span></a><a class="button ghost" href="#palestras">Ver palestras <span aria-hidden="true">↓</span></a></div>
+<div class="signature">Bruna Folster<span>FUNDADORA DA BR FOLSTER · CCO DA P-LIFE JAPAN INC.</span></div></div>
+<div class="hero-art" aria-label="Bruna Folster, consultora em sustentabilidade e economia circular"><img class="bruna-photo" src="assets/bruna-folster.jpg" alt="Bruna Folster em retrato profissional" fetchpriority="high"><div class="art-grid"></div><div class="orbit"></div><div class="orbit two"></div><div class="orbit three"></div><span class="art-index">01 - TRANSFORMAÇÃO</span><div class="art-label">Pensar<br>o ciclo inteiro.</div><div class="art-bottom"><span>VISÃO DE NEGÓCIO.<br>CONSCIÊNCIA DE FUTURO.</span><span aria-hidden="true">↗</span></div></div></section>
+<div class="ribbon"><span>BIODEGRADAÇÃO</span><i aria-hidden="true">✳</i><span>ECONOMIA CIRCULAR</span><i aria-hidden="true">✳</i><span>ESG</span><i aria-hidden="true">✳</i><span>INDÚSTRIA DO PLÁSTICO</span><i aria-hidden="true">✳</i><span>LIDERANÇA FEMININA</span><i aria-hidden="true">✳</i><span>NEURODIVERSIDADE</span></div>
+<section class="section wrap about" id="sobre">
+<div><p class="eyebrow">01 / QUEM ESTÁ À FRENTE</p><h2>Visão executiva.<br>Olhar para <em>o amanhã.</em></h2>
+<div class="nameplate">BRUNA FOLSTER<span>CCO · P-LIFE JAPAN INC. · FUNDADORA DA BR FOLSTER</span></div>
+<div class="facts"><div><b>20+</b><span>anos em negócios internacionais</span></div><div><b>10+</b><span>anos na indústria de polímeros e sustentabilidade</span></div><div><b>ABRASCI</b><span>acadêmica titular</span></div></div></div>
+<div class="about-text"><p class="large">Conectar ciência, indústria e mercado é o que faço todos os dias.</p>
+<p>Sou CCO da P-Life Japan Inc., onde lidero a estratégia comercial global e a expansão internacional de uma tecnologia de biodegradação para plásticos, com atuação na América Latina, Ásia, África e Europa.</p>
+<p>Antes, construí minha carreira na Eco Ventures Brasil, de coordenadora a sócia e vice-presidente executiva. Sou acadêmica titular da ABRASCI, participo do COLIFE/FIERGS e tenho formação em Administração com ênfase em Comércio Exterior, pós-graduação em Meio Ambiente e Sustentabilidade pela FGV e MBA em Liderança, Inovação e Gestão 4.0 pela PUCRS.</p>
+<blockquote>“Sou autista e acredito que a diversidade cognitiva fortalece a inovação, a tomada de decisões estratégicas e a construção de soluções capazes de transformar a indústria.”</blockquote>
+<p>A BR Folster nasce para levar esse repertório a empresas e eventos que precisam sair da intenção e ganhar direção.</p>
+<a class="text-link" href="https://www.linkedin.com/in/bruna-folster-28390a85/" target="_blank" rel="noopener noreferrer">Minha trajetória no LinkedIn ↗</a></div>
+</section>
+<section class="section wrap services" id="atuacao"><div class="section-top"><div><p class="eyebrow">02 / CONSULTORIA</p><h2>Do desafio à <em>próxima decisão.</em></h2></div><p>Cada negócio tem seu contexto.<br>A conversa começa por entender o seu.</p></div>
+<div class="service-list">
+<article><span class="service-num">01</span><div><h3>Consultoria estratégica em sustentabilidade</h3><p>Diagnóstico dos desafios ambientais do seu negócio, priorização do que gera resultado e caminhos de transformação, de ESG a regulamentação.</p><div class="tags"><span>ESG</span><span>ESTRATÉGIA</span><span>REGULAMENTAÇÃO</span></div></div><a href="#contato" aria-label="Conversar sobre consultoria estratégica">↗</a></article>
+<article><span class="service-num">02</span><div><h3>Biodegradação, biotecnologia & economia circular</h3><p>Orientação técnica sobre materiais, biodegradabilidade e reciclabilidade do plástico, normas e certificações, e as tendências que vão definir o setor.</p><div class="tags"><span>BIODEGRADAÇÃO</span><span>BIOTECNOLOGIA</span><span>RECICLABILIDADE</span><span>NORMAS</span></div></div><a href="#contato" aria-label="Conversar sobre biodegradação e economia circular">↗</a></article>
+<article><span class="service-num">03</span><div><h3>Conexões e mercados internacionais</h3><p>Experiência em expansão comercial, distribuidores e parcerias na América Latina, Ásia, Oriente Médio, África e Europa para empresas que querem crescer com soluções de menor impacto.</p><div class="tags"><span>COMÉRCIO EXTERIOR</span><span>PARCERIAS</span><span>EXPANSÃO</span></div></div><a href="#contato" aria-label="Conversar sobre mercados internacionais">↗</a></article>
+</div></section>
+<section class="talks" id="palestras"><div class="wrap">
+<div class="section-top"><div><p class="eyebrow">03 / PALESTRAS</p><h2>Conversas que <em>mobilizam.</em></h2></div><p>Para empresas, feiras, congressos<br>e encontros de liderança.</p></div>
+<div class="talk-grid">
+<div class="talk"><span class="num">TEMA 01</span><h3>Sustentabilidade e o futuro do plástico</h3><p>Biodegradação, economia circular e inovação na nova geração dos plásticos, com ciência explicada para quem decide.</p></div>
+<div class="talk"><span class="num">TEMA 02</span><h3>Liderança executiva e feminina</h3><p>A trajetória de uma mulher em posições de liderança na indústria e o que muda quando as organizações abrem espaço para outras vozes.</p></div>
+<div class="talk"><span class="num">TEMA 03</span><h3>Autismo e neurodiversidade no mundo corporativo</h3><p>A partir da minha própria história como executiva autista: como a diversidade cognitiva fortalece a inovação e a tomada de decisão.</p></div>
+</div>
+<div class="stages"><b>PALCOS RECENTES</b><span>ColombiaPlast 2026 · Bogotá</span><span>FLEXO 2026 · El Salvador</span><span>Mulheres que Transformam</span><span>World Plastic Connection Summit</span><span>Plástico Brasil</span><span>Planeta em Pauta · Rádio Estação Web</span></div>
+<a class="button" style="background:var(--lime);color:var(--forest)" href="mailto:brfolster@gmail.com?subject=Convite%20para%20palestra">Convidar para uma palestra <span aria-hidden="true">↗</span></a>
+</div></section>
+<section class="quote"><p class="eyebrow">UMA PERSPECTIVA PARA O SEU NEGÓCIO</p><h2>Entender o presente.<br>Questionar possibilidades.<br><em>Construir o próximo passo.</em></h2><span>BR FOLSTER / CONSULTORIA & ESTRATÉGIA</span></section>
+<section class="section wrap content" id="conteudo"><div class="section-top"><div><p class="eyebrow">04 / IDEIAS EM CIRCULAÇÃO</p><h2>Conhecimento<br>que <em>ganha voz.</em></h2></div><p>Uma seleção de publicações, entrevistas<br>e conversas sobre o futuro da indústria.</p></div>
+<div class="filters" role="group" aria-label="Filtrar conteúdos"><button class="active" aria-pressed="true" data-filter="all">Todos</button><button aria-pressed="false" data-filter="conversas">Podcasts & entrevistas</button><button aria-pressed="false" data-filter="publicacoes">Publicações</button><button aria-pressed="false" data-filter="eventos">Eventos & mídia</button></div>
+<div class="content-grid" id="content-grid"></div>
+<script>
+/* ===== LISTA DE CONTEÚDOS =====
+   Para acrescentar algo novo, copie um bloco { ... }, cole no topo da lista e troque os textos.
+   tipo: "conversas" (podcasts e entrevistas), "publicacoes" ou "eventos".
+   arte: opcional. Se tiver, o card aparece grande, com o título em destaque (use <br> para quebrar a linha). */
+const CONTEUDOS=[
+{tipo:"conversas",selo:"PLANETA EM PAUTA / 2026",titulo:"Liderança, alta performance e autismo",texto:"Episódio #7 do Planeta em Pauta, da Rádio Estação Web, sobre neurodiversidade. Participo da segunda parte, a partir dos 34 minutos.",link:"https://open.spotify.com/episode/4Bnv7kgZiyEdUWIcBRTYDv",acao:"Ouvir no Spotify",arte:{rotulo:"EM CONVERSA",texto:"Neuro<br>diversidade.",icone:"◉",cor:"art-a"}},
+{tipo:"publicacoes",selo:"PLÁSTICO SUL AMÉRICA / 2026",titulo:"ColombiaPlast 2026: um hub para a inovação e conexão do mercado sul-americano",texto:"Artigo escrito a convite da ColombiaPlast, com as oportunidades de conexão entre Brasil, Colômbia, América Central e Caribe.",link:"https://plasticosulamerica.com/colombiaplast-2026-um-hub-para-a-inovacao-e-conexao-do-mercado-sulamericano/",acao:"Ler na Plástico Sul América",arte:{rotulo:"ARTIGO AUTORAL",texto:"Hub<br>sul-americano.",icone:"↗",cor:"art-b"}},
+{tipo:"eventos",selo:"COLOMBIAPLAST 2026 / BOGOTÁ",titulo:"Biodegradação: inovação e sustentabilidade na nova geração dos plásticos",texto:"Palestra na ColombiaPlast 2026, em Corferias, sobre biodegradação e o futuro dos plásticos na América Latina.",link:"https://www.linkedin.com/feed/update/urn:li:activity:7508537061759553536/",acao:"Ver no LinkedIn",arte:{rotulo:"PALESTRA / COLÔMBIA",texto:"Biodegra<br>dação.",icone:"↗",cor:"art-b"}},
+{tipo:"eventos",selo:"FLEXO 2026 / EL SALVADOR",titulo:"Conferência magistral sobre biodegradação",texto:"Master lecture no FLEXO 2026, em San Salvador: como ciência, inovação e biodegradação contribuem para soluções mais sustentáveis na indústria do plástico.",link:"https://www.linkedin.com/feed/update/urn:li:activity:7485758509960159232/",acao:"Ver no LinkedIn",arte:{rotulo:"PALESTRA / EL SALVADOR",texto:"Nova<br>geração.",icone:"✳",cor:"art-c"}},
+{tipo:"conversas",selo:"PODCAST / 2026",titulo:"Desmistificando o plástico e os “absolutos” da sustentabilidade",texto:"Participação no Podplástico, registrada no blog da Eco Ventures.",link:"https://www.ecoventuresbrasil.com/blog",acao:"Ver registro do episódio",arte:{rotulo:"EM CONVERSA",texto:"pod<br>plástico",icone:"◉",cor:"art-a"}},
+{tipo:"publicacoes",selo:"PUBLICAÇÃO ACADÊMICA / 2022",titulo:"A adaptação da indústria brasileira do plástico à economia circular",texto:"Trabalho de autoria de Bruna Folster de Carvalho, publicado com DOI.",link:"https://publicacoes.even3.com.br/tcc/a-adaptacao-da-industria-brasileira-do-plastico-a-economia-circular-6212744",acao:"Conhecer a publicação",arte:{rotulo:"PESQUISA AUTORAL",texto:"Repensar<br>o ciclo.",icone:"↻",cor:"art-b"}},
+{tipo:"conversas",selo:"TALKPLAST / INTERPLAST 2024",titulo:"Uma conversa sobre o setor plástico",texto:"Entrevista com Bruna Folster no acervo de entrevistas e lives da Talkplast.",link:"https://talkplast.com.br/entrevistas-e-lives-2/",acao:"Explorar entrevistas"},
+{tipo:"eventos",selo:"MUNDO DO PLÁSTICO / 2025",titulo:"Matérias-primas sustentáveis e a evolução do mercado",texto:"Reportagem com declarações de Bruna na Plástico Brasil 2025.",link:"https://mundodoplastico.plasticobrasil.com.br/aplasticobrasil/plastico-brasil-2025-amplia-oferta-de-materias-primas-sustentaveis-para-a-industria/",acao:"Ler reportagem"},
+{tipo:"eventos",selo:"WORLD PLASTIC CONNECTION SUMMIT / 2025",titulo:"Liderança feminina e ESG em debate",texto:"Mesa-redonda com executivas do setor sobre desafios e oportunidades.",link:"https://worldplasticconnectionsummit.com/lideranca-feminina-e-esg-executivas-renomadas-discutem-desafios-e-oportunidades-em-mesa-redonda-no-iv-world-plastic-connection-summit/",acao:"Conhecer o encontro"},
+{tipo:"eventos",selo:"VEJA / 2025",titulo:"Inovação na agenda da COP30",texto:"Notícia sobre o convite para apresentar soluções no estande do Amapá.",link:"https://veja.abril.com.br/coluna/radar/as-empresas-que-o-governador-do-amapa-vai-levar-a-cop30/",acao:"Ler na VEJA"}
+];
+document.getElementById("content-grid").innerHTML=CONTEUDOS.map(c=>`<a class="card${c.arte?"":" compact"}" data-category="${c.tipo}" href="${c.link}" target="_blank" rel="noopener noreferrer">${c.arte?`<div class="card-art ${c.arte.cor||"art-a"}"><span>${c.arte.rotulo}</span><b>${c.arte.texto}<span>${c.arte.icone||"↗"}</span></b></div>`:""}<div class="card-body"><p class="eyebrow">${c.selo}</p><h3>${c.titulo}</h3><p>${c.texto}</p><span class="text-link">${c.acao} ↗</span></div></a>`).join("");
+</script>
+</div></section>
+<section class="wrap contact" id="contato"><div><p class="eyebrow">05 / O PRÓXIMO PASSO</p><h2>Qual desafio vamos<br><em>pensar juntos?</em></h2></div><div><p>Para consultoria, palestras ou uma primeira conversa sobre o seu negócio, escolha o canal que preferir.</p>
+<div class="channels">
+<a class="channel" href="mailto:brfolster@gmail.com?subject=Contato%20pelo%20site%20BR%20Folster"><span>E-MAIL</span><b>brfolster@gmail.com</b></a>
+<a class="channel" href="https://www.linkedin.com/in/bruna-folster-28390a85/" target="_blank" rel="noopener noreferrer"><span>LINKEDIN</span><b>Bruna Folster ↗</b></a>
+<a class="channel" href="https://www.linkedin.com/company/brfolster/" target="_blank" rel="noopener noreferrer"><span>PÁGINA DA EMPRESA</span><b>BR Folster no LinkedIn ↗</b></a>
+</div></div></section>
+</main>
+<footer><a class="brand" href="#inicio" aria-label="BR Folster, início"><img src="assets/br-folster-logo.png" alt="BR Folster"></a><p>Sustentabilidade com visão de negócio.</p><div class="links"><a href="mailto:brfolster@gmail.com">brfolster@gmail.com</a><a href="https://www.linkedin.com/company/brfolster/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div><small>© 2026 BR Folster</small></footer>
+<script>
+const menu=document.querySelector(".menu-toggle"),nav=document.querySelector("#main-nav");
+menu.addEventListener("click",()=>{const open=menu.getAttribute("aria-expanded")!=="true";menu.setAttribute("aria-expanded",String(open));menu.setAttribute("aria-label",open?"Fechar menu":"Abrir menu");nav.classList.toggle("open",open);});
+nav.querySelectorAll("a").forEach(link=>link.addEventListener("click",()=>{nav.classList.remove("open");menu.setAttribute("aria-expanded","false");menu.setAttribute("aria-label","Abrir menu");}));
+document.querySelectorAll("[data-filter]").forEach(button=>button.addEventListener("click",()=>{document.querySelectorAll("[data-filter]").forEach(item=>{const active=item===button;item.classList.toggle("active",active);item.setAttribute("aria-pressed",String(active));});document.querySelectorAll("[data-category]").forEach(card=>{card.hidden=button.dataset.filter!=="all"&&card.dataset.category!==button.dataset.filter;});}));
+</script>
+</body></html>
